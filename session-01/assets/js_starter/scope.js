@@ -9,6 +9,7 @@ console.log(`global: ${z}`);
 function myFunction() {
   x = 7;
   y = 12;
+  z = 75;
   console.log(`local: ${x}`);
   console.log(`local: ${y}`);
   console.log(`local: ${z}`);
