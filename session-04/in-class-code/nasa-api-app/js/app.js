@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const fetchApodButton = document.getElementById("fetch-apod");
   const apodContent = document.getElementById("apod-content");
-  const apiKey = "GurS0wJyr12na3jhvOraArdY3bGr64N2ovBUUTh5";
+  const apiKey = "rWAy6QcphfoxJk5yhi4x8dT8QjnvHsnGjmuXmHRg";
 
   fetchApodButton.addEventListener("click", () => {
     const date = document.getElementById("date").value;
