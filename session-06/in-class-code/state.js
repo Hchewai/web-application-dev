@@ -1,11 +1,15 @@
-let state_object = {};
+let stateObject = [];
 let state = "";
 
-state_object["0"] = state;
-state_object[setState] = (new_state) => {
-  return (state = new_state);
+stateObject.push(state);
+
+let setState = (newState) => {
+  return (state = newState);
 };
 
+let [formState, setFormState] = stateObject;
+
+stateObject.push(setState);
 console.log(state.object);
-console.log(state_object[0]);
-console.log(state_object[1]);
+console.log(stateObject[0]);
+console.log(stateObject[1]);
